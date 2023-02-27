@@ -1,0 +1,45 @@
+body *{
+    display:flex;
+}
+
+.borderStyle{
+    border :2px solid #000;
+    flex-grow:1;
+    margin:5px;
+    flex-direction:column;
+}
+
+#wrap{
+    display:flex;
+}
+
+header{
+    height:100px;
+    width:90%;
+
+}
+
+LogOut{
+    height:100px;
+    width:19%;
+}
+
+#content-area{
+    height:100vh;
+}
+
+#content-area aside{
+    flex-grow:0.5;
+}
+
+#content-area main{
+    flex-grow:2;
+}
+
+#content-area left{
+    flex-grow:0.5;
+}
+
+footer{
+    height:100px;
+}
