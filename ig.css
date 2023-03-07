@@ -261,7 +261,7 @@ section{
 .suggestion-title{
     display:flex;
     align-items:center;
-    margin-bottom:15px;
+    margin-bottom:0px;
 }
 
 .suggestion-title .suggestion-left{
