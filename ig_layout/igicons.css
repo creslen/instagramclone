@@ -1,0 +1,52 @@
+.icons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.home{
+    font-size:27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    
+}
+
+.search{
+    font-size:27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.explore{
+    font-size:27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.messages{
+    font-size:27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.notifications{
+    font-size:28px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.reels{
+    font-size:27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.create{
+    font-size:27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}

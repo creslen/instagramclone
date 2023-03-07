@@ -9,35 +9,42 @@ body *{
     flex-direction:column;
 }
 
+.borderstyle{
+    flex-grow:1;
+}
+
 #wrap{
     display:flex;
 }
 
-header{
-    height:100px;
-    width:90%;
-
+#head-content{
+    height:100vh;
 }
 
-LogOut{
-    height:100px;
-    width:19%;
+#head-content header1{
+    height:50px;
+    width:70px;
+}
+
+#head-content header2{
+    height:50px;
+    width:30px;
 }
 
 #content-area{
     height:100vh;
 }
 
-#content-area aside{
-    flex-grow:0.5;
+#left{
+    flex-direction: column;
 }
 
 #content-area main{
-    flex-grow:2;
+    flex-grow:4;
 }
 
 #content-area left{
-    flex-grow:0.5;
+    flex-grow:1;
 }
 
 footer{
