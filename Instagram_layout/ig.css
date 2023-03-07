@@ -57,7 +57,7 @@ aside div i{
 }
 
 section{
-    padding:25px 13%;
+    padding:20px 13%;
     display:flex;
     background-color: #fafafa;
 }
@@ -75,7 +75,7 @@ section{
 }
 
 .stories{
-    width:100%;
+    width:90%;
    
 }
 
@@ -93,6 +93,11 @@ section{
 
 }
 
+.icons div img{
+    border-radius:50%;
+}
+
+
 #container main #center #post{
     display:flex;
     flex-direction: column;
@@ -103,7 +108,7 @@ section{
     width:100%;
     margin:25px 0;
     background-color: white;
-    border:1px solid rgba(219,219,219,1);
+    border:1px solid rgb(255, 254, 254);
     border-radius:3px;
 
 }
