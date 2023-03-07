@@ -226,6 +226,8 @@ section{
     align-items:center;
 }
 
+
+
 .right-side .profile-title .profile-left{
     display:flex;
     align-items:center;
@@ -237,8 +239,9 @@ section{
     margin-right:15px;
 }
 
-.right-side .profile-title .profile-left .details .name{
-    padding-bottom: 3px;
+
+.right-side .profile-title .profile-left .details .surname{
+    font-weight: lighter;
 }
 
 .suggestions{
