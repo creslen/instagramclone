@@ -239,6 +239,10 @@ section{
     margin-right:15px;
 }
 
+.right-side .profile-title .profile-left .details .name{
+    font-weight: bolder;  
+    justify-content:space-around;
+}
 
 .right-side .profile-title .profile-left .details .surname{
     font-weight: lighter;
