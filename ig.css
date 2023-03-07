@@ -30,10 +30,12 @@ aside div a{
     font-size:1em;
     font-family: sans-serif;
     margin-left: 10px;
+    padding-top:10px;
+    padding-bottom:3px;
 }
 
 aside div{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 aside div i{
@@ -72,7 +74,7 @@ section{
 #container main #center #story{
     display: flex;
     justify-content: space-around;
-    padding:16px;
+    padding:10px;
     border-radius:3px;
 }
 
@@ -107,7 +109,7 @@ section{
 }
 
 .posts{
-    width:100%;
+    width:110%;
     margin:25px 0;
     background-color: white;
     border:1px solid rgb(255, 255, 255);
@@ -119,6 +121,7 @@ section{
     justify-content: space-between;
     align-items: center;
     padding:16px;
+    padding-top:1px;
 
 }
 
@@ -129,6 +132,7 @@ section{
 
 .posts .post-title .post-left .image{
     margin-right:15px;
+    padding-top:10px;
 }
 
 .posts .post-title .post-left .image img{
@@ -136,16 +140,20 @@ section{
     object-fit: contain;
 }
 
-
+.posts .post-title .post-left .details{
+    justify-content: space-between;
+}
 
 .posts .post-title .post-left .details .name{
-  
     font-size:15px;
     font-weight: bold;
+    padding-top:20px;
 }
+
 
 .posts .post-title .post-left .details .more{
     margin-left: 249px;
+
 }
 
 .posts .post-title .post-left .details .name .dot{
@@ -264,11 +272,17 @@ section{
     display:flex;
     margin-top:25px;
     margin-bottom:20px;
+    font-size:13px;
+    font-weight: bold;
+    text-align-last:inherit;
 }
 
-.suggestions p{
-    margin-right:90px;
+.suggestions .see{
+    padding-left:40px;
+    margin-left:85px;
+
 }
+
 
 .suggestion-title{
     display:flex;
@@ -289,6 +303,13 @@ section{
 }
 
 .suggestion-title .suggestion-left .details .name{
-    padding-bottom:3px;
+    padding-top:10px;
+}
+
+.suggestion-title .suggestion-left .details .follow{
+    padding-left:1%;
+    padding-top:10px;
+    margin-left:190px;
+    font-size:12px;
 }
 
