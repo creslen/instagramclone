@@ -261,11 +261,15 @@ section{
 
 .right-side .profile-title .profile-left .details .name{
     font-weight: bolder;  
-    justify-content:space-around;
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom:20px;
 }
 
 .right-side .profile-title .profile-left .details .surname{
     font-weight: lighter;
+    font-size:12px;
+    padding-bottom:20px;
 }
 
 .suggestions{
