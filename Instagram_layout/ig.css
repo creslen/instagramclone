@@ -21,6 +21,7 @@ aside{
     flex-direction: column;
     max-width: 200px;
     padding-left: 20px;
+    
    
 }
 
@@ -40,6 +41,7 @@ aside div i{
     height:22px;
     margin:5px;
 }
+
 
 #container main{
     flex-grow:4;
@@ -70,7 +72,6 @@ section{
     display: flex;
     justify-content: space-around;
     padding:16px;
-    border:1px solid rgba(219,219,219,1);
     border-radius:3px;
 }
 
@@ -108,7 +109,7 @@ section{
     width:100%;
     margin:25px 0;
     background-color: white;
-    border:1px solid rgb(255, 254, 254);
+    border:1px solid rgb(255, 255, 255);
     border-radius:3px;
 
 }
@@ -180,21 +181,23 @@ section{
     font-weight:normal;
 }
 
-.posts .post-footer-content .posting-time{
+.posts .post-title .post-left .details .name .posting-time{
     font-size:10px;
     margin-top:6px;
+    
+   
 }
 
 .posts .add-comment{
     padding:16px;
-    border-top:1px solid #efefef;
+    border-top:1px solid #fffdfd;
     display:flex;
     align-items:center;
     justify-content:space-between;
 }
 
 .posts .add-comment .left-side{
-    dispplay:flex;
+    display:flex;
     align-items:center;
 }
 
