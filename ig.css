@@ -1,5 +1,6 @@
 body{
     display: flex;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 #container{
@@ -27,7 +28,7 @@ aside{
 
 aside div a{
     font-size:1em;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
     margin-left: 10px;
 }
 
@@ -65,7 +66,7 @@ section{
 }
 
 .center{
-    width:85%;
+    width:90%;
 }
 
 #container main #center #story{
@@ -135,11 +136,28 @@ section{
     object-fit: contain;
 }
 
+
+
 .posts .post-title .post-left .details .name{
-    padding-bottom:2px;
-    font-weight:bold;
+  
+    font-size:15px;
+    font-weight: bold;
 }
 
+.posts .post-title .post-left .details .more{
+    margin-left: 249px;
+}
+
+.posts .post-title .post-left .details .name .dot{
+    margin-left: 4px;
+    margin-right:4px;
+}
+
+.posts .post-title .post-left .details .name .posting-time{
+    font-size:10px;
+    margin-top:6px;
+    font-weight: lighter;
+}
 .posts .post-content img{
     width:100%;
     height:100%;
@@ -169,7 +187,7 @@ section{
 }
 
 .posts .post-footer-content .likes{
-    margin-bottom:8px;
+    margin-bottom:1px;
 }
 
 .posts .post-footer-content .name{
@@ -181,12 +199,6 @@ section{
     font-weight:normal;
 }
 
-.posts .post-title .post-left .details .name .posting-time{
-    font-size:10px;
-    margin-top:6px;
-    
-   
-}
 
 .posts .add-comment{
     padding:16px;
